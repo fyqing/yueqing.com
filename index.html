@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
   <style>
     body {
       /* 
@@ -16,7 +18,7 @@
                         url("https://united71.files.wordpress.com/2023/01/e688aae5b18f2023-01-17-e4b88be58d887.29.02.png");
       background-size: 1000px 600px;
       */
-      
+      font-family: "KaTeX_Main", "Latin Modern Roman", "Computer Modern", serif;
 
       margin: 0;                
       padding: 60px 80px;       
@@ -25,6 +27,12 @@
 
       margin-left: auto;
       margin-right: auto;
+    }
+
+    h1, h2 {
+      font-family: "KaTeX_Main", serif;
+      font-style: italic;
+      font-weight: 400;
     }
 
     div.a {
@@ -53,7 +61,7 @@
     
     .paper-demo video {
       width: 100%;
-      max-width: 900px;
+      max-width: 300px;
       height: auto;
       display: block;
       border-radius: 12px;
